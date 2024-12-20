@@ -52,14 +52,14 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#E89EB8', // Updated background color
     flexGrow: 1,
   },
   profilePic: {
  borderRadius: 75,
     marginVertical: 20,
     borderWidth: 3,
-    borderColor: '#4CAF50',
+    borderColor: '#D9a577',
   },
   name: {
     fontSize: 28,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#4CAF50',
+    color: '#E27396',
   },
   sectionContent: {
     fontSize: 16,
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   },
   contactButton: {
     marginTop: 20,
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#fff',
     borderRadius: 25,
     paddingVertical: 10,
     paddingHorizontal: 20,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   },
   contactButtonText: {
     fontSize: 18,
-    color: '#fff',
+    color: '#E27396',
     fontWeight: 'bold',
   },
 });
